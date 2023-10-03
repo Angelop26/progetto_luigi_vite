@@ -1,0 +1,55 @@
+<script>
+import MainChiSiamoVue from './MainChiSiamo.vue';
+import MainJumbotron from './MainJumbotron.vue';
+import MainProvaVue from './MainProva.vue';
+import MainQAVue from './MainQA.vue';
+import MainTestimonianza from './MainTestimonianza.vue';
+import MainEmail from './MainEmail.vue';
+import MainCorsi from './MainCorsi.vue';
+export default {
+    name: 'AppMain',
+    components: {
+        MainJumbotron,
+        MainChiSiamoVue,
+        MainProvaVue,
+        MainTestimonianza,
+        MainQAVue,
+        MainEmail,
+        MainCorsi
+    }
+}
+</script>
+
+<template>
+    <main>
+        <MainJumbotron />
+        <MainCorsi />
+        <MainChiSiamoVue />
+        <MainProvaVue />
+        <MainTestimonianza />
+        <MainQAVue />
+        <MainEmail />
+        <div class="whatsapp-link">
+            <a href="https://wa.me/34681942907"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #00ff40;"></i></a>
+        </div>
+    </main>
+</template>
+
+<style lang="scss" scoped>
+section {
+    padding-bottom: 30px;
+    padding-top: 60px;
+
+    @media screen and (min-width: 750px) {
+        padding-top: 70px;
+
+    }
+}
+
+.whatsapp-link {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    padding: 20px;
+}
+</style>
