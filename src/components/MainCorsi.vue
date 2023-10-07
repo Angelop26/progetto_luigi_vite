@@ -5,27 +5,32 @@ export default {
         return {
             corsi: [
                 {
+                    name: 'Ja C1',
+                    backgroundImg: 'corso_JA_C1.jpg'
+                },
+                {
+                    name: 'Ja C2',
+                    backgroundImg: 'corso_JA_C2.jpg'
+                },
+                {
+                    name: 'LO',
+                    backgroundImg: 'corso_LO.jpg'
+                },
+                {
                     name: 'Age C1',
-                    backgroundImg: ''
+                    backgroundImg: 'corso_Age_C1.jpg'
                 },
                 {
-                    name: '2',
-                    backgroundImg: '',
-                },
-                {
-                    name: '3',
-                    backgroundImg: ''
-                },
-                {
-                    name: '4',
-                    backgroundImg: ''
-                },
-                {
-                    name: '5',
-                    backgroundImg: ''
+                    name: 'Age C2',
+                    backgroundImg: 'corso_Age_C2.jpg'
                 },
 
             ]
+        }
+    },
+    methods: {
+        getImagePath(img){
+            return new URL(`../assets/img/${img}`, import.meta.url).href
         }
     }
 }
@@ -39,7 +44,9 @@ export default {
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                     <div class="col" v-for="(corso, index) in corsi" :key="index">
                         <a href="#Modal" data-bs-toggle="modal" role="button" aria-controls="exampleModal">
-                            <div class="badge bg-dark"> {{ corso.name }} </div>
+                            <div class="badge "> 
+                                <img :src="getImagePath(corso.backgroundImg)" alt="">
+                            </div>
                         </a>
                         <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel"
                             aria-hidden="true">
@@ -135,6 +142,21 @@ export default {
         .badge {
             width: 100%;
             height: 250px;
+
+            img{
+                @media screen and (min-width: 430px) {
+                    width: 75%;
+                }
+                @media screen and (min-width: 540px) {
+                    width: 50%;
+                }
+                @media screen and (min-width: 768px) {
+                    width: 75%;
+                }
+                @media screen and (min-width: 1475px) {
+                    width: 50%;
+                }
+            }
         }
     }
 

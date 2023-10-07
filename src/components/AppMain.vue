@@ -30,7 +30,7 @@ export default {
         <MainQAVue />
         <MainEmail />
         <div class="whatsapp-link">
-            <a href="https://wa.me/34681942907"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #00ff40;"></i></a>
+            <a href="https://wa.me/34681942907"><i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #00ff40;"></i></a>
         </div>
     </main>
 </template>
@@ -49,7 +49,7 @@ section {
 .whatsapp-link {
     position: fixed;
     bottom: 10px;
-    right: 20px;
-    padding: 20px;
+    right: 0;
+    padding: 1%;
 }
 </style>
