@@ -7,7 +7,7 @@ export default {
 <template>
     <section id="prova">
         <video class="mx-auto d-block" controls>
-            <source src="../assets/video/video_landing_page.mp4" type="video/mp4">
+            <source src="../assets/img/video_landing_page.mp4" type="video/mp4">
         </video>
     </section>
 </template>
