@@ -29,7 +29,7 @@ export default {
         }
     },
     methods: {
-        getImagePath(img){
+        getImagePath(img) {
             return new URL(`../assets/img/${img}`, import.meta.url).href
         }
     }
@@ -39,12 +39,15 @@ export default {
 <template>
     <section id="corsi">
         <div class="corso-container">
-            <h2 class="corsi-title text-center fs-4 ">Nuestros cursos</h2>
+            <h2 class="corsi-title text-center fs-4 ">Cursos ofrecidos: tu pasaporte para el éxito en las oposiciones</h2>
+            <p class="text-center">¡Bienvenido al emocionante viaje hacia tu futuro como funcionario/a con Opopreparadora!
+                Hemos diseñado cursos de preparación completa y flexible para que alcances tus metas profesionales en el
+                sector público.</p>
             <div class="container-fluid wdt-80">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                     <div class="col" v-for="(corso, index) in corsi" :key="index">
                         <a href="#Modal" data-bs-toggle="modal" role="button" aria-controls="exampleModal">
-                            <div class="badge "> 
+                            <div class="badge ">
                                 <img :src="getImagePath(corso.backgroundImg)" alt="">
                             </div>
                         </a>
@@ -75,6 +78,11 @@ export default {
 
                     </div>
                 </div>
+                <p class="text-center">Independientemente de la opción que elijas, en Opopreparadora estamos comprometidos a proporcionarte los recursos
+                    y el apoyo necesarios para alcanzar el éxito en tu oposición. Únete a nosotros y comienza tu viaje hacia la
+                    emocionante carrera de trabajar en el sector público.
+                    ¡Estamos aquí para ayudarte a alcanzar tu meta!
+                </p>
             </div>
         </div>
         <div class="prerequisiti-container wdt-80 mx-auto">
@@ -123,16 +131,7 @@ export default {
 @use '../style/variables/mixins' as *;
 
 .corso-container {
-    padding: 100px 40px;
-    position: relative;
-    @include flex(row, space-around, center);
-
-    .corsi-title {
-        position: absolute;
-        left: 50%;
-        top: 3%;
-        transform: translateX(-50%);
-    }
+    padding: 0 40px;
 
     a {
         height: 100%;
@@ -143,22 +142,28 @@ export default {
             width: 100%;
             height: 250px;
 
-            img{
+            img {
                 @media screen and (min-width: 430px) {
                     width: 75%;
                 }
+
                 @media screen and (min-width: 540px) {
                     width: 50%;
                 }
+
                 @media screen and (min-width: 768px) {
                     width: 75%;
                 }
+
                 @media screen and (min-width: 1475px) {
                     width: 50%;
+                }
+
+                @media screen and (min-width: 2000px) {
+                    width: 40%;
                 }
             }
         }
     }
 
-}
-</style>
+}</style>
