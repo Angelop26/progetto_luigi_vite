@@ -30,16 +30,16 @@ export default {
 <template>
     <section id="mail">
         <div class="container text-center py-3">
-            <!-- <h2 class="mb-3">Escríbenos si tienes más dudas</h2>
-            <a href="mailto:info@opopreparadora.com" type="button" class="btn btn-primary fs-2">info@opopreparadora.com</a> -->
+            <h2 class="mb-3">Escríbenos si tienes más dudas</h2>
+            <!-- <a href="mailto:info@opopreparadora.com" type="button" class="btn btn-primary fs-2">info@opopreparadora.com</a> -->
             <form name="modulo">
                 Email:<br />
                 <input type="text" name="email"> <br />
-                Oggetto:<br />
+                Objeto:<br />
                 <input type="text" name="oggetto"> <br />
-                Messaggio:<br />
+                Mensaje:<br />
                 <textarea name="messaggio" rows="10" cols="30"></textarea> <br />
-                <input type="button" value="Invia" onClick="Email()">
+                <input type="button" value="Envía" onClick="Email()">
             </form>
         </div>
     </section>

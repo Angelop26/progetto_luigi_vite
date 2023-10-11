@@ -40,7 +40,7 @@ export default {
     <section id="corsi">
         <div class="corso-container">
             <h2 class="corsi-title text-center fs-4 ">Cursos ofrecidos: tu pasaporte para el éxito en las oposiciones</h2>
-            <p class="text-center">¡Bienvenido al emocionante viaje hacia tu futuro como funcionario/a con Opopreparadora!
+            <p class="text-center">¡Bienvenido al emocionante viaje hacia tu futuro como funcionario/a con Opopreparadora! <br>
                 Hemos diseñado cursos de preparación completa y flexible para que alcances tus metas profesionales en el
                 sector público.</p>
             <div class="container-fluid wdt-80">
@@ -78,50 +78,11 @@ export default {
 
                     </div>
                 </div>
-                <p class="text-center">Independientemente de la opción que elijas, en Opopreparadora estamos comprometidos a proporcionarte los recursos
-                    y el apoyo necesarios para alcanzar el éxito en tu oposición. Únete a nosotros y comienza tu viaje hacia la
+                <p class="text-center mt-5">Independientemente de la opción que elijas, en Opopreparadora estamos comprometidos a proporcionarte los recursos
+                    y el apoyo necesarios para alcanzar el éxito en tu oposición. <br> Únete a nosotros y comienza tu viaje hacia la
                     emocionante carrera de trabajar en el sector público.
-                    ¡Estamos aquí para ayudarte a alcanzar tu meta!
+                    <br> ¡Estamos aquí para ayudarte a alcanzar tu meta!
                 </p>
-            </div>
-        </div>
-        <div class="prerequisiti-container wdt-80 mx-auto">
-            <h2 class="text-center">Prerequisiti</h2>
-            <div class="accordion accordion-flush w-75 mx-auto" id="accordionFlushExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            prerequisiti 1
-                        </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <ol>
-                                <li>
-                                    ciao
-                                </li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            Prerequisiti 2
-                        </button>
-                    </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            <ol>
-                                <li>
-                                    ciao
-                                </li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>

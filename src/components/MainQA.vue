@@ -92,7 +92,7 @@ export default {
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                        Forma de pago del curso?
+                        ¿Forma de pago del curso?
                     </button>
                 </h2>
                 <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -105,4 +105,8 @@ export default {
     </section>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.accordion-body{
+    padding: 16px 50px;
+}
+</style>

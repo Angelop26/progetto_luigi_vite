@@ -12,7 +12,7 @@ export default {
             Las restricciones de movimiento y las medidas de distanciamiento social nos obligaron a replantear la forma en
             que trabajamos y estudiamos. Las redes sociales se convirtieron en ventanas al mundo exterior, y el teletrabajo
             se hizo cada vez más común. <br>
-            Fue en este contexto de adaptación forzada que Opopreparadora dio sus primeros pasos.
+            Fue en este contexto de adaptación forzada que Opopreparadora dio sus primeros pasos. <br>
             Esta academia en línea comprendió la necesidad de brindar a las personas una opción segura y efectiva para
             prepararse para sus oposiciones desde la comodidad de sus hogares. <br>
             Los fundadores de Opopreparadora vieron una oportunidad en la creciente demanda de educación en línea de calidad
@@ -21,7 +21,7 @@ export default {
             Además, han aprovechado las redes sociales y las herramientas de vídeo para crear contenido educativo atractivo
             y fácilmente compartible. <br>
             A medida que la sociedad se adapta a un “nuevo normal”, Opopreparadora continúa creciendo y evolucionando,
-            brindando a las personas la oportunidad de perseguir sus sueños de carrera a través de la educación en línea.
+            brindando a las personas la oportunidad de perseguir sus sueños de carrera a través de la educación en línea. <br>
             Su historia es un testimonio del espíritu emprendedor y la adaptabilidad que caracteriza a estos tiempos de
             cambio y desafío. <br>
             Opopreparadora demuestra que, incluso en los momentos más desafiantes, la innovación y la determinación pueden
