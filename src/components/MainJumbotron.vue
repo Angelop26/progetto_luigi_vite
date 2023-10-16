@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <section>
+    <section class="jumbotron">
         <div class="ms_jumbo">
             <div class="ms_jumbo-container mx-auto">
                 <div class="ms_promo">
@@ -22,6 +22,12 @@
 
 <style lang="scss" scoped>
 @use '../style/variables/mixins' as *;
+.jumbotron{
+    padding-top: 60px;
+    @media screen and (min-width: 768px) {
+        padding-top: 80px;
+    }
+}
 .ms_jumbo{
     background-image: url('../assets/img/top-view-young-redhead-male-student-preparing-university-exam_171337-10015.avif');
     background-size: cover;
